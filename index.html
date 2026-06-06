@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accademia Mozart — Escola de Música em , São Paulo</title>
+  <meta name="description" content="Accademia Mozart: escola de música em São Paulo. Aulas de piano, violão, canto e violino para todas as idades. Professores qualificados e método personalizado.">
+
+  <!-- Open Graph -->
+  <meta property="og:title"       content="Accademia Mozart — Escola de Música em ">
+  <meta property="og:description" content="Accademia Mozart: escola de música em São Paulo. Aulas de piano, violão, canto e violino para todas as idades. Professores qualificados e método personalizado.">
+  <meta property="og:image"       content="assets/og-image.jpg">
+  <meta property="og:type"        content="website">
+  <meta property="og:locale"      content="pt_BR">
+
+  <link rel="icon" href="assets/favicon.png" type="image/png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=Lato:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationalOrganization",
+    "name": "Accademia Mozart",
+    "description": "Accademia Mozart: escola de música em São Paulo. Aulas de piano, violão, canto e violino para todas as idades. Professores qualificados e método personalizado.",
+    "url": "https://accademiamozart.com.br",
+    "telephone": "",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "",
+      "addressLocality": "São Paulo",
+      "addressRegion": "SP",
+      "postalCode": "",
+      "addressCountry": "BR"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+        "opens": "09:00",
+        "closes": "21:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "09:00",
+        "closes": "17:00"
+      }
+    ]
+  }
+  </script>
+<script>window.__imgFallback=function(img,label){img.onerror=null;img.alt=label||'';img.style.cssText='background:#e5e7eb;min-height:40px';img.src='data:image/svg+xml,%3Csvg xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22 viewBox%3D%220 0 1 1%22%3E%3C%2Fsvg%3E';};</script>
+</head>
+<body>
+
+  <!-- ── NAVBAR ──────────────────────────────────────────── -->
+  <header class="navbar" role="banner">
+    <div class="navbar-inner container">
+      <a href="#inicio" class="nav-logo" aria-label="Accademia Mozart — página inicial">
+        <img src="assets/logo.png" alt="Logo Accademia Mozart" width="140" height="44"
+             onerror="window.__imgFallback(this, 'logo')">
+      </a>
+      <nav class="nav-links" aria-label="Navegação principal">
+        <a href="#inicio" class="active">Início</a>
+        <a href="#cursos">Cursos</a>
+        <a href="#professores">Professores</a>
+        <a href="#valores">Valores</a>
+        <a href="#localizacao">Localização</a>
+        <a href="https://wa.me/" class="nav-cta" target="_blank" rel="noopener">
+          <span data-icon="WhatsappLogo"></span> Agendar aula
+        </a>
+      </nav>
+      <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ── HERO ────────────────────────────────────────────── -->
+  <section class="hero" id="inicio" aria-label="Apresentação da escola">
+    <div class="hero-bg img-fallback">
+      <img src="https://8ispuxmgjxgu2r5q.public.blob.vercel-storage.com/stock-photos/scuole/hero/scuole-hero-10.webp" alt="Sala de aula de música da Accademia Mozart em São Paulo"
+           loading="eager" fetchpriority="high"
+           onerror="window.__imgFallback(this, 'imagem em breve')">
+    </div>
+    <div class="hero-overlay" aria-hidden="true"></div>
+    <div class="hero-content container">
+      <p class="hero-eyebrow fade-up">Ensino musical de qualidade em São Paulo</p>
+      <h1 class="hero-title fade-up">Onde a música se torna <em>conhecimento</em></h1>
+      <p class="hero-subtitle fade-up">Escola de música em São Paulo com aulas de piano, violão, canto e violino para todas as idades.</p>
+      <div class="hero-actions fade-up">
+        <a href="https://wa.me/" class="btn btn-primary" target="_blank" rel="noopener">
+          <span data-icon="WhatsappLogo" class="btn-icon"></span>
+          <span class="btn-primary-text">Agende sua aula experimental</span>
+        </a>
+        <a href="#cursos" class="btn btn-outline-light">Ver cursos</a>
+      </div>
+      <div class="hero-badge fade-up">
+        <span data-icon="Star"></span>
+        Aula experimental gratuita para novos alunos
+      </div>
+    </div>
+  </section>
+
+  <!-- ── OS CURSOS ────────────────────────────────────────── -->
+  <section class="courses" id="cursos" aria-label="Nossos cursos">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label fade-up">O que ensinamos</p>
+        <h2 class="section-title fade-up">Os cursos</h2>
+        <p class="section-subtitle fade-up">Aulas individuais e em grupo para iniciantes e avançados, crianças e adultos.</p>
+      </div>
+      <div class="courses-grid">
+        <article class="course-card stagger-card">
+          <div class="course-card-img img-fallback">
+            <img src="https://8ispuxmgjxgu2r5q.public.blob.vercel-storage.com/stock-photos/scuole/ambiente/scuole-ambiente-13.webp" alt="Aulas de Piano — Accademia Mozart"
+                 loading="lazy"
+                 onerror="window.__imgFallback(this, 'imagem em breve')">
+          </div>
+          <div class="course-card-body">
+            <p class="course-instrument">Piano</p>
+            <h3 class="course-title">Piano Clássico</h3>
+            <p class="course-desc">Repertório clássico e popular com técnica sólida. Método adaptado ao ritmo de cada aluno.</p>
+            <ul class="course-meta">
+              <li class="course-meta-row">
+                <span data-icon="Users"></span>
+                <span>Individual ou em dupla</span>
+              </li>
+              <li class="course-meta-row">
+                <span data-icon="GraduationCap"></span>
+                <span>Níveis: Iniciante, Intermediário, Avançado</span>
+              </li>
+              <li class="course-meta-row">
+                <span data-icon="MusicNote"></span>
+                <span>Faixa etária: A partir de 6 anos</span>
+              </li>
+            </ul>
+          </div>
+        </article>
+        <article class="course-card stagger-card">
+          <div class="course-card-img img-fallback">
+            <img src="https://8ispuxmgjxgu2r5q.public.blob.vercel-storage.com/stock-photos/scuole/detalhe/scuole-detalhe-17.webp" alt="Aulas de Violão — Accademia Mozart"
+                 loading="lazy"
+                 onerror="window.__imgFallback(this, 'imagem em breve')">
+          </div>
+          <div class="course-card-body">
+            <p class="course-instrument">Violão</p>
+            <h3 class="course-title">Violão</h3>
+            <p class="course-desc">Técnica clássica e popular. Teoria musical integrada desde as primeiras aulas.</p>
+            <ul class="course-meta">
+              <li class="course-meta-row">
+                <span data-icon="Users"></span>
+                <span>Individual ou em grupo</span>
+              </li>
+              <li class="course-meta-row">
+                <span data-icon="GraduationCap"></span>
+                <span>Níveis: Todos os níveis</span>
+              </li>
+              <li class="course-meta-row">
+                <span data-icon="MusicNote"></span>
+                <span>Faixa etária: A partir de 8 anos</span>
+              </li>
+            </ul>
+          </div>
+        </article>
+        <article class="course-card stagger-card">
+          <div class="course-card-img img-fallback">
+            <img src="https://8ispuxmgjxgu2r5q.public.blob.vercel-storage.com/stock-photos/scuole/equipe/scuole-equipe-06.webp" alt="Aulas de Canto — Accademia Mozart"
+                 loading="lazy"
+                 onerror="window.__imgFallback(this, 'imagem em breve')">
+          </div>
+          <div class="course-card-body">
+            <p class="course-instrument">Canto</p>
+            <h3 class="course-title">Canto</h3>
+            <p class="course-desc">Técnica vocal, respiração e interpretação. Repertório lírico e popular brasileiro.</p>
+            <ul class="course-meta">
+              <li class="course-meta-row">
+                <span data-icon="Users"></span>
+                <span>Individual</span>
+              </li>
+              <li class="course-meta-row">
+                <span data-icon="GraduationCap"></span>
+                <span>Níveis: Iniciante, Intermediário, Avançado</span>
+              </li>
+              <li class="course-meta-row">
+                <span data-icon="MusicNote"></span>
+                <span>Faixa etária: A partir de 12 anos</span>
+              </li>
+            </ul>
+          </div>
+        </article>
+        <article class="course-card stagger-card">
+          <div class="course-card-img img-fallback">
+            <img src="https://8ispuxmgjxgu2r5q.public.blob.vercel-storage.com/stock-photos/scuole/ambiente/scuole-ambiente-14.webp" alt="Aulas de Violino — Accademia Mozart"
+                 loading="lazy"
+                 onerror="window.__imgFallback(this, 'imagem em breve')">
+          </div>
+          <div class="course-card-body">
+            <p class="course-instrument">Violino</p>
+            <h3 class="course-title">Violino</h3>
+            <p class="course-desc">Método progressivo com ênfase em postura e sonoridade desde o início.</p>
+            <ul class="course-meta">
+              <li class="course-meta-row">
+                <span data-icon="Users"></span>
+                <span>Individual</span>
+              </li>
+              <li class="course-meta-row">
+                <span data-icon="GraduationCap"></span>
+                <span>Níveis: Iniciante, Intermediário</span>
+              </li>
+              <li class="course-meta-row">
+                <span data-icon="MusicNote"></span>
+                <span>Faixa etária: A partir de 6 anos</span>
+              </li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SCROLL ANIMATION ─────────────────────────────────── -->
+  <section class="scroll-animation" id="scroll-anim" aria-label="Sequência cinematográfica">
+    <div class="scroll-anim-pin">
+      <canvas id="scroll-canvas" aria-hidden="true"></canvas>
+      <div class="scroll-anim-overlay">
+        <p class="scroll-headline">Cada nota é um passo adiante.</p>
+        <p class="scroll-subline">Aprenda com professores dedicados ao ensino musical.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── OS PROFESSORES ───────────────────────────────────── -->
+  <section class="professors" id="professores" aria-label="Nossa equipe de professores">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label fade-up">Quem ensina</p>
+        <h2 class="section-title fade-up">Os professores</h2>
+        <p class="section-subtitle fade-up">Professores formados e experientes, dedicados ao ensino de música.</p>
+      </div>
+      <div class="professors-grid">
+        <article class="fade-up">
+          <div class="professor-photo img-fallback">
+            <img src="https://8ispuxmgjxgu2r5q.public.blob.vercel-storage.com/stock-photos/scuole/ambiente/scuole-ambiente-15.webp" alt="Foto de Prof. André Silva, professor de Piano"
+                 loading="lazy"
+                 onerror="window.__imgFallback(this, 'imagem em breve')">
+          </div>
+          <h3 class="professor-name">Prof. André Silva</h3>
+          <p class="professor-instrument">Piano</p>
+          <p class="professor-bio">Formação em Música pela USP. Atua há mais de 15 anos no ensino de piano clássico e teoria musical.</p>
+        </article>
+        <article class="fade-up">
+          <div class="professor-photo img-fallback">
+            <img src="https://8ispuxmgjxgu2r5q.public.blob.vercel-storage.com/stock-photos/scuole/detalhe/scuole-detalhe-01.webp" alt="Foto de Profa. Mariana Costa, professor de Canto"
+                 loading="lazy"
+                 onerror="window.__imgFallback(this, 'imagem em breve')">
+          </div>
+          <h3 class="professor-name">Profa. Mariana Costa</h3>
+          <p class="professor-instrument">Canto</p>
+          <p class="professor-bio">Licenciada em Música com especialização em canto lírico. Experiência em coral e aulas particulares.</p>
+        </article>
+        <article class="fade-up">
+          <div class="professor-photo img-fallback">
+            <img src="https://8ispuxmgjxgu2r5q.public.blob.vercel-storage.com/stock-photos/scuole/equipe/scuole-equipe-12.webp" alt="Foto de Prof. Roberto Alves, professor de Violão"
+                 loading="lazy"
+                 onerror="window.__imgFallback(this, 'imagem em breve')">
+          </div>
+          <h3 class="professor-name">Prof. Roberto Alves</h3>
+          <p class="professor-instrument">Violão</p>
+          <p class="professor-bio">Violonista profissional formado pelo Conservatório de Tatuí. Professor de violão clássico e popular.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── VALORES E INSCRIÇÕES ─────────────────────────────── -->
+  <section class="pricing" id="valores" aria-label="Valores e inscrições">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label fade-up">Investimento</p>
+        <h2 class="section-title fade-up">Valores e inscrições</h2>
+        <p class="section-subtitle fade-up">Planos flexíveis para se adaptar aos seus objetivos musicais.</p>
+      </div>
+      <div class="pricing-grid">
+        <div class="price-card stagger-card ">
+          
+          <p class="price-plan-name">Aula Avulsa</p>
+          <p class="price-value">
+            <span class="currency">R$</span>130
+          </p>
+          <p class="price-period">por aula individual (1h)</p>
+          <ul class="price-features">
+            <li class="price-feature">
+              <span data-icon="Check"></span>
+              <span>1 hora de aula individual</span>
+            </li>
+            <li class="price-feature">
+              <span data-icon="Check"></span>
+              <span>Escolha do instrumento</span>
+            </li>
+            <li class="price-feature">
+              <span data-icon="Check"></span>
+              <span>Flexibilidade de agendamento</span>
+            </li>
+            <li class="price-feature">
+              <span data-icon="Check"></span>
+              <span>Material didático incluso</span>
+            </li>
+          </ul>
+          <a href="https://wa.me/" class="btn btn-primary" style="width:100%;justify-content:center" target="_blank" rel="noopener">
+            <span data-icon="WhatsappLogo" class="btn-icon"></span>
+            <span class="btn-primary-text">Quero este plano</span>
+          </a>
+        </div>
+        <div class="price-card stagger-card featured">
+          <div class="price-badge">Mais procurado</div>
+          <p class="price-plan-name">Plano Mensal</p>
+          <p class="price-value">
+            <span class="currency">R$</span>460
+          </p>
+          <p class="price-period">por mês — 4 aulas individuais</p>
+          <ul class="price-features">
+            <li class="price-feature">
+              <span data-icon="Check"></span>
+              <span>4 aulas individuais por mês</span>
+            </li>
+            <li class="price-feature">
+              <span data-icon="Check"></span>
+              <span>Economia em relação à aula avulsa</span>
+            </li>
+            <li class="price-feature">
+              <span data-icon="Check"></span>
+              <span>Horário fixo garantido</span>
+            </li>
+            <li class="price-feature">
+              <span data-icon="Check"></span>
+              <span>Material didático incluso</span>
+            </li>
+            <li class="price-feature">
+              <span data-icon="Check"></span>
+              <span>Acompanhamento personalizado</span>
+            </li>
+          </ul>
+          <a href="https://wa.me/" class="btn btn-primary" style="width:100%;justify-content:center" target="_blank" rel="noopener">
+            <span data-icon="WhatsappLogo" class="btn-icon"></span>
+            <span class="btn-primary-text">Quero este plano</span>
+          </a>
+        </div>
+        <div class="price-card stagger-card ">
+          
+          <p class="price-plan-name">Semestral</p>
+          <p class="price-value">
+            <span class="currency">R$</span>2.480
+          </p>
+          <p class="price-period">6 meses — 24 aulas individuais</p>
+          <ul class="price-features">
+            <li class="price-feature">
+              <span data-icon="Check"></span>
+              <span>24 aulas individuais (6 meses)</span>
+            </li>
+            <li class="price-feature">
+              <span data-icon="Check"></span>
+              <span>Melhor custo-benefício</span>
+            </li>
+            <li class="price-feature">
+              <span data-icon="Check"></span>
+              <span>Plano de estudos estruturado</span>
+            </li>
+            <li class="price-feature">
+              <span data-icon="Check"></span>
+              <span>Acompanhamento de evolução</span>
+            </li>
+            <li class="price-feature">
+              <span data-icon="Check"></span>
+              <span>Material didático incluso</span>
+            </li>
+          </ul>
+          <a href="https://wa.me/" class="btn btn-primary" style="width:100%;justify-content:center" target="_blank" rel="noopener">
+            <span data-icon="WhatsappLogo" class="btn-icon"></span>
+            <span class="btn-primary-text">Quero este plano</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── ONDE ESTAMOS + HORÁRIOS (ESTÁTICA) ──────────────── -->
+  <section class="location" id="localizacao" aria-label="Localização e horários">
+    <div class="container location-grid">
+      <div class="location-info">
+        <p class="section-label fade-up">Venha nos visitar</p>
+        <h2 class="section-title fade-up">, São Paulo</h2>
+        <ul class="location-details">
+          <li class="location-detail">
+            <span data-icon="MapPin" class="loc-icon"></span>
+            <span>, São Paulo, SP — CEP </span>
+          </li>
+          <li class="location-detail">
+            <span data-icon="Phone" class="loc-icon"></span>
+            <a href="tel:+"></a>
+          </li>
+          <li class="location-detail">
+            <span data-icon="Clock" class="loc-icon"></span>
+            <div class="hours-list">
+              <span><strong>Segunda a Sexta:</strong> 9h às 21h</span>
+              <span><strong>Sábado:</strong> 9h às 17h</span>
+              <span><strong>Domingo e Feriados:</strong> Fechado</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CTA FINAL ─────────────────────────────────────────── -->
+  <section class="cta-band" id="contato" aria-label="Contato e inscrição">
+    <div class="container cta-band-inner fade-up">
+      <h2 class="cta-band-title">Comece sua jornada musical hoje</h2>
+      <p class="cta-band-sub">Agende sua aula experimental e descubra o instrumento ideal para você.</p>
+      <div class="cta-band-actions">
+        <a href="https://wa.me/" class="btn btn-primary" target="_blank" rel="noopener">
+          <span data-icon="WhatsappLogo" class="btn-icon"></span>
+          <span class="btn-primary-text">Agendar aula experimental</span>
+        </a>
+        <a href="#cursos" class="btn btn-outline-light">
+          <span data-icon="MusicNote" class="btn-icon"></span>
+          <span>Ver cursos</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ─────────────────────────────────────────────── -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#inicio">
+          <img src="assets/logo.png" alt="Logo Accademia Mozart" width="120" height="40"
+               onerror="window.__imgFallback(this, 'logo')">
+        </a>
+        <p class="footer-tagline">Ensino musical de qualidade em São Paulo</p>
+        <div class="footer-social">
+          <a href="https://wa.me/" aria-label="WhatsApp Accademia Mozart" target="_blank" rel="noopener">
+            <span data-icon="WhatsappLogo"></span>
+          </a>
+        </div>
+      </div>
+      <nav class="footer-nav" aria-label="Links do rodapé">
+        <p class="footer-nav-title">Navegação</p>
+        <a href="#inicio">Início</a>
+        <a href="#cursos">Cursos</a>
+        <a href="#professores">Professores</a>
+        <a href="#valores">Valores</a>
+        <a href="#localizacao">Localização</a>
+      </nav>
+      <div class="footer-contact">
+        <p class="footer-nav-title">Contato</p>
+        <a href="tel:+"></a>
+        <a href="https://wa.me/" target="_blank" rel="noopener">WhatsApp</a>
+        <span></span>
+        <span>São Paulo, SP</span>
+      </div>
+    </div>
+    <div class="container">
+      <div class="footer-bottom">
+        <p class="footer-legal">
+          <span>&copy; <span data-year></span> Accademia Mozart. Todos os direitos reservados.</span>
+          
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
